@@ -1,0 +1,448 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        margin: 20px 0;
+    }
+
+    .header, .mid-section, .mid-section1, .mid-section2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .increased-text li {
+        display: inline-block;
+    }
+ 
+}
+
+.navigation {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+    padding: 0 25px;
+    width: 100%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-link, .nav-linkk {
+    color: #000;
+    font-size: 0.855rem;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+.nav-link-underline:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header {
+    padding-top: 90px;
+}
+
+.upYourGame {
+    font-size: 0.9rem;
+}
+
+
+.header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 1;
+    color: rgb(0, 176, 15);
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+a.linkk, a.linkk1 {
+    border-radius: 150px;
+    background-color: rgb(0, 130, 11);
+    color: #fff;
+}
+
+a.whiteLink {
+    border: rgb(0, 130, 11) solid 2px;
+    border-radius: 150px;
+    color: rgb(0, 130, 11);
+}
+
+a.linkk {
+    padding: 10px 15px;
+}
+
+a.linkk1, a.whiteLink {
+    padding: 2% 8%;
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    
+    a.linkk1, a.whiteLink {
+        padding: 1% 5%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    a.whiteLink, a.linkk1 {
+        display: block;
+        text-align: center;
+        padding: 2% 1%;
+    }
+}
+
+a.learnMore {
+    border-radius: 150px;
+    padding: 5px 15px;
+    color: rgb(14, 91, 82);;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.browse {
+    color: rgb(0, 130, 11);   
+}
+
+.lightbg {
+    background-color: rgb(239, 246, 237);
+    border-radius: 5px;
+    height: 150px;
+}
+
+.greenStar {
+    color: green;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+a.cardLink {
+    text-decoration: none;
+}
+
+.lightbg:hover {
+    background-color: rgb(187, 210, 180);
+}
+
+.firstColumn {
+    padding: 50px;
+    background-color: rgb(14, 91, 82);
+}
+
+.wheelchair {
+    height: 100%;
+}
+
+.mid-section3 h2 {
+    font-size: 4rem;
+    line-height: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mid-section3 p {
+    font-size: 1.2rem;
+}
+
+.mid-section3 h2, .mid-section3 i {
+    color: rgb(103, 237, 186);
+}
+
+.mid-section3 h4, .mid-section3 .goodCompany, .mid-section3 p {
+    color: #fff;
+}
+
+.mid-section3 h4 {
+    padding-bottom: 30px;
+}
+
+.mid-section5 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+
+.yoga {
+    position: absolute;
+    left: 53%;
+    height: 85%;
+}
+
+.yogaSection {
+    background-color: rgb(239, 246, 237);
+    border-radius: 5px;
+    padding: 50px 0 50px 50px;
+}
+
+.reducedWidth {
+    max-width: 90%;
+}
+
+.reasons {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.reasons-icon {
+    font-size: 1.2rem;
+    position: relative;
+    top: 12px;
+    font-weight: 500;
+}
+
+.reasons-icons {
+    font-size: 0.8rem;
+    position: relative;
+    top: 12px;
+    left: 3px;
+    font-weight: 500;
+}
+
+.circle-icon {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 13px;
+    font-weight: 500;
+}
+
+.yogaSection2 {
+    background-color: rgb(6, 173, 6);
+    border-radius: 5px;
+    padding: 50px 0 50px 25px;
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bottom-content {
+    position: relative;
+    top: 270px;
+}
+
+.bottom-content h3, .bottom-content .boldd {
+    font-weight: bold;
+}
+
+.mid-section4-div {
+    background-image: url(https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_scale/brontes/delivery-models/find-talent-mobile.jpg);
+    border-radius: 10px;
+    margin: 0 auto;
+    background-size: 100%;
+    color: #fff;
+    padding: 50px;
+}
+
+.mid-section4 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .mid-section1 img {
+        display: table-row;
+    }
+}
+
+.clientLink {
+    background-color: rgb(10, 165, 10);
+    color: #fff;
+    height: 100%;
+}
+
+.clientLink:hover {
+    background-color: #fff;
+    color: rgb(10, 165, 10);
+}
+
+.clientLink h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.clientLink p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mid-section6 img {
+    height: 100%;
+}
+
+.mid-section6 .second-col {
+    color: #fff;
+    padding: 30px 30px 50px 30px;
+    background-color: rgba(0, 61, 194, 0.855);
+}
+
+.mid-section6 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 0.8;
+    margin: 20px 0;
+}
+
+.mid-section6 p {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.mid-section6 .bottom {
+    margin-top: 160px;
+}
+
+.mid-section6 hr {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.mid-section6 a {
+    background-color: #fff;
+    color: rgba(0, 61, 194, 0.855);
+    border-radius: 150px;
+    padding: 10px 15px;
+}
+
+.mid-section6 a:hover {
+    background-color: #ccc;
+}
+
+.find {
+    margin-top: 30px;
+}
+
+.mid-section7 ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.mid-section7 .increased-text {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.green {
+    color: rgb(6, 173, 6)
+}
+
+.hoverGreen {
+    opacity: 0.2;
+    color: rgb(149, 152, 149);
+}
+
+.hoverGreen:hover {
+    opacity: 1;
+    color: rgb(6, 173, 6);
+}
+
+.hoverGreen2 {
+    color: rgb(118, 118, 118);
+    font-size: 1.6rem;
+}
+
+.hoverGreen2:hover {
+    color: rgb(6, 173, 6)
+}
+
+footer {
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 32, 0);
+    padding: 100px 30px 30px 30px;
+    font-size: 0.9rem;
+    line-height: 2;
+    color: #fff;
+}
+
+footer li, .footer-link, footer p, footer i {
+    color: #fff;
+}
+
+footer p {
+    padding: 5px 30px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer .footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.box {
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-footer ul {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.inline-footer li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.modal-content input {
+    background-color: rgb(247, 255, 249);
+}
+
+.modal-body form {
+    padding: 30px 30px;
+}
+
+.modal-footer a {
+    border-radius: 150px;
+    padding: 5px 25px;
+    background-color: rgb(0, 130, 11);
+    color: #fff;
+}

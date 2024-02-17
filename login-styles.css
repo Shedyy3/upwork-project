@@ -1,0 +1,143 @@
+body {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+.content-container  {
+    text-align: center;
+}
+
+
+h3 {
+    padding-top: 50px;
+}
+
+.input-text {
+    margin: 20px 0;
+}
+
+.continue, .continue2 {
+    margin-top: 10px;
+}
+
+.continue1 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    border: #000 thin 1px;
+}
+
+.continue2 {
+    margin-bottom: 30px;
+}
+
+a.email {
+    text-decoration: none;
+    padding: 2% 15%;
+    border-radius: 30px;
+}
+
+.greenBG {
+    background-color: green;
+    color: #fff;
+}
+
+.blueBG {
+    background-color: rgb(15, 98, 214);
+    color: #fff;
+}
+
+.noAccount {
+    font-size: 1rem;
+    color: #7b827b;
+}
+
+.signup {
+    margin-bottom: 45px;
+}
+
+a.link {
+    color: green;
+    padding: 2% 10%;
+    text-decoration: none;
+    border: green 2px solid;
+    border-radius: 30px;
+}
+
+a.link:hover {
+    background-color: #fafffa;
+}
+
+footer {
+    border-radius: 10px;
+    background-color: rgb(0, 32, 0);
+    padding: 50px;
+}
+
+footer p, footer a {
+    font-size: 0.7rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1100px)  {
+    
+    .content-container {
+        width: 40%;
+        margin: 120px auto 20px auto;
+        border-radius: 15px;
+        border: rgb(215, 229, 209) 1px solid;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1099px) {
+    .content-container {
+        width: 50%;
+        margin: 120px auto 20px auto;
+        border-radius: 15px;
+        border: rgb(215, 229, 209) 1px solid;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 999px) {
+    .content-container {
+        width: 60%;
+        margin: 120px auto 20px auto;
+        border-radius: 15px;
+        border: rgb(215, 229, 209) 1px solid;
+    }
+
+}
+@media screen and (min-width: 590px) and (max-width: 650px) {
+    .content-container {
+        width: 70%;
+        margin: 120px auto 20px auto;
+        border-radius: 15px;
+        border: rgb(215, 229, 209) 1px solid;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    nav {
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+}
